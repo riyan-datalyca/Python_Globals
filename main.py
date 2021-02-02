@@ -18,6 +18,8 @@ def exec_func():
     t2.get()
     time.sleep(1)
     t1.get()
+    time.sleep(2)
+    t2.get()
 
 
 if __name__ == '__main__':
